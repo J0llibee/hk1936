@@ -1,0 +1,9 @@
+spriteTypes = {	
+
+	### HONGKONG IDEAS
+
+	spriteType = {  ##tech
+		name = "GFX_multi_role_1_medium"
+		texturefile = "gfx/interface/technologies/multi_role.dds"
+	}
+}

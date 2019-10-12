@@ -1,0 +1,11 @@
+sub_units = {
+	
+	multi_role_jet = {
+		sprite = jet_plane
+		priority = 1
+		active = yes
+		type = { fighter tactical_bomber }
+		need = { multi_role_jet_equipment = 1 }
+		categories = { category_fighter }
+	}
+}

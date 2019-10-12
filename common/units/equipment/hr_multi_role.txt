@@ -1,0 +1,70 @@
+equipments = {
+
+	multi_role_jet_equipment = {
+		year = 1980
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_fighter_equipment
+		is_buildable = no
+		type = { fighter interceptor tactical_bomber }
+		group_by = archetype
+		sprite = light_plane
+		air_map_icon_frame = 1
+		
+		active = no
+
+		interface_category = interface_category_air
+		
+		# Fighter
+		interface_overview_category_index = 1
+
+		upgrades = {
+			plane_gun_upgrade
+			plane_range_upgrade
+			plane_engine_upgrade
+			plane_reliability_upgrade
+		}
+
+		air_superiority = 1
+		reliability = 0.8
+
+		# Air vs Navy - low damage / high hit chance / easy to hurt
+		naval_strike_attack = 1
+		naval_strike_targetting = 10
+
+		#Space taken in convoy
+		lend_lease_cost = 21
+		
+		build_cost_ic = 24
+		resources = {
+			#oil = 1
+			aluminium = 2
+			rubber = 1
+		}
+		
+		manpower = 20
+		fuel_consumption = 0.21
+	}
+
+
+	multi_role_jet_equipment_0 = {
+		year = 1980
+
+		archetype = multi_role_jet_equipment
+		priority = 5
+		
+		active = no
+
+		air_range = 4570
+		maximum_speed = 1230
+		air_agility = 105
+		air_attack = 72
+		air_defence = 108
+		air_bombing = 50
+		air_ground_attack = 12
+
+		naval_strike_attack = 5
+		naval_strike_targetting = 15
+	}
+}

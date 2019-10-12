@@ -1,0 +1,27 @@
+technologies = {
+
+	multi_role_1 = {
+
+		enable_equipments = {
+			multi_role_jet_equipment_0
+		}
+				
+		research_cost = 1.5 #Carrier Variant
+		start_year = 1980
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		#folder = {
+		#	name = air_techs_folder
+		#	position = { x = -2 y = 8 }
+		#}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		################
+	}
+}
